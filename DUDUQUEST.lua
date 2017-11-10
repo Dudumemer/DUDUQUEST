@@ -41,7 +41,7 @@ local ONLY_CONSIDER_SPECIALIZATION_TYPE = false --set true to only check armor t
                                                 --**this option not heavily tested/debugged
 
 local ignoreDPS = {           --ignores the weapon dps of these slots
-	"INVTYPE_RANGEDRIGHT",      --if ur class uses a statstick weapon leave it here
+  "INVTYPE_RANGEDRIGHT",      --if ur class uses a statstick weapon leave it here
   --"INVTYPE_WEAPONMAINHAND", --if not, remove/comment it out
   --"INVTYPE_WEAPONOFFHAND",  --default setting set to arms war
   --"INVTYPE_WEAPON",
