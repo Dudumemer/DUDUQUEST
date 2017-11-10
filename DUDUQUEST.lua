@@ -32,7 +32,7 @@ local statWeights = {
 
 local ONLY_CONSIDER_SPECIALIZATION_TYPE = false --- only check armor types of your class. ie: hunter only wants mail when lvl 50+ for 5% agi
 
-local compareWithSlot = {   ------ remove lines you dont want to consider
+local compareWithSlot = {   ------ remove lines you dont want to consider i.e if you're a dualwield class, remove INVTYPE_2HWEAPON = { 16 },
   INVTYPE_HEAD = { 1 },
   INVTYPE_NECK = { 2 },
   INVTYPE_SHOULDER = { 3 },
