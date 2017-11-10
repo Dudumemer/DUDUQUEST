@@ -150,7 +150,7 @@ local function AggregateStats(itemLink, weights, slotIgnoreDPS)
     for k, v in pairs(itemStats) do
       if ( weights[k] ) then
 			count = count + 1
-        if #slotIgnoreDPS > 0 and k == "ITEM_MOD_DAMAGE_PER_SECOND_SHORT" then
+        if k == "ITEM_MOD_DAMAGE_PER_SECOND_SHORT" then
           for i = 1, #slotIgnoreDPS do
             if slotIgnoreDPS[i] ~= itemSlot then
               count2 = count2 + 1
