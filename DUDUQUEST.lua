@@ -142,7 +142,7 @@ local function CanIEquip(itemLink)
   local r, b, g = _G[leftText]:GetTextColor()
   local r, b, g = Round(r*255), Round(b*255), Round(g*255)
   local r2, b2, g2 = _G[rightText]:GetTextColor()
-  local r2, b2, g2 = Round(r2*255), Round(b2*255), Round(g2*255)
+  local r2, b2, g2 = Round(r2*255, 1), Round(b2*255, 1), Round(g2*255, 1)
 
   if r == 255 and b == 255 and g == 255 and r2 == 255 and b2 == 255 and g2 == 255 and myLevel >= reqLevel then
     return true
