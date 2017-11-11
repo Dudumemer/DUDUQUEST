@@ -31,6 +31,7 @@ local statWeights = {                       --default values are guestimated sta
   ITEM_MOD_MASTERY_RATING_SHORT = 0.4, 
   ITEM_MOD_DAMAGE_PER_SECOND_SHORT = 6,
   ITEM_MOD_ATTACK_POWER_SHORT = 0.46,
+  ITEM_MOD_SPELL_POWER_SHORT = 0,
   RESISTANCE0_NAME = 0, -- armor value
 }
 
