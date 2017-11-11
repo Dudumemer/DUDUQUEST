@@ -12,6 +12,7 @@
 -- ctrl-copy everything into a Super Duper Macro script
 -- make a regular macro to call the Super Duper Macro script
 -- then spam the shit out of it during quest dialog
+-- get SDM here: http://www.wowinterface.com/downloads/getfile.php?id=10496&aid=78141
 --------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------
