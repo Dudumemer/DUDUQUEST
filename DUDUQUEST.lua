@@ -105,6 +105,11 @@ local ignoreArmorTypes = {
   INVTYPE_HOLDABLE = true,
 }
 
+local function Round(num, numDecimalPlaces)
+  local mult = 10^(numDecimalPlaces or 0)
+  return math.floor(num * mult + 0.5) / mult
+end
+
 local function SortQuestRewards(A, v, descending) --insertion sort
   for j = 2, #A do
     key = A[j]
@@ -135,9 +140,9 @@ local function CanIEquip(itemLink)
   local leftText = "myTooltipFromTemplateTextLeft3"
   local rightText = "myTooltipFromTemplateTextRight3"
   local r, b, g = _G[leftText]:GetTextColor()
-  local r, b, g = math.round(r*255), math.round(b*255), math.round(g*255)
+  local r, b, g = Round(r*255), Round(b*255), Round(g*255)
   local r2, b2, g2 = _G[rightText]:GetTextColor()
-  local r2, b2, g2 = math.round(r2*255), math.round(b2*255), math.round(g2*255)
+  local r2, b2, g2 = Round(r2*255), Round(b2*255), Round(g2*255)
 
   if r == 255 and b == 255 and g == 255 and r2 == 255 and b2 == 255 and g2 == 255 and myLevel >= reqLevel then
     return true
