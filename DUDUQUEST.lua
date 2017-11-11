@@ -13,6 +13,8 @@
 -- make a regular macro to call the Super Duper Macro script
 -- then spam the shit out of it during quest dialog
 -- get SDM here: http://www.wowinterface.com/downloads/getfile.php?id=10496&aid=78141
+--
+-- double dashes ' -- ' is a comment, and anything on the the same line that goes after is ignored by lua
 --------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------
